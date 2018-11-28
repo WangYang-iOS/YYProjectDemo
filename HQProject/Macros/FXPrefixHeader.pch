@@ -1,0 +1,49 @@
+//
+//  FXPrefixHeader.pch
+//  FXQL
+//
+//  Created by wangyang on 2018/8/18.
+//  Copyright © 2018年 HangzhouHaiqu. All rights reserved.
+//
+
+#ifndef FXPrefixHeader_pch
+#define FXPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#pragma mark -
+#pragma mark - 第三方框架头文件导入
+
+#import <MJExtension.h>
+#import <AFNetworking.h>
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import <MJRefresh.h>
+#import <IQKeyboardManager.h>
+#import <MBProgressHUD.h>
+#import <WebViewJavascriptBridge.h>
+#import <ReactiveObjC.h>
+
+#pragma mark -
+#pragma mark - 常用头文件导入
+
+#import "APIDefine.h"
+#import "DefineHeader.h"
+#import "ExtensionHeader.h"
+#import "FXEnumHeader.h"
+#import "HQCommenMethods.h"
+#import "HQHUDManager.h"
+#import "NetworkBlock.h"
+#import "FXNavigationController.h"
+#import "FXTabBarController.h"
+#import "FXBaseModel.h"
+#import "AppDelegate+Reachability.h"
+#import "AppDelegate+RemoteNotification.h"
+#import "FXTools.h"
+#import "FXImageView.h"
+#import "FXFileManager.h"
+#import "FXEmptyView.h"
+#import "FXTableViewDataSource.h"
+
+#endif /* FXPrefixHeader_pch */
